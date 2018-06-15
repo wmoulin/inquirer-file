@@ -1,5 +1,6 @@
 {
   "name": "inquirer-file",
+  "version": "1.0.0",
   "author": {
     "name": "Wilfried Moulin"
   },
@@ -36,9 +37,5 @@
     "url": "git+https://github.com/wmoulin/inquierer-file.git"
   },
   "scripts": {
-    "postversion": "git push && git push --tags",
-    "preversion": "npm test",
-    "test": "_mocha test/spec"
-  },
-  "version": "2.1.0"
+  }
 }
