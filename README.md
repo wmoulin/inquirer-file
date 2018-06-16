@@ -39,14 +39,14 @@ Takes `type`, `name`, `message`, `basePath`, `ext` properties.
 See [inquirer](https://github.com/SBoudrias/Inquirer.js) readme for meaning of all except **basePath** and **ext**.
 
 **basePath** is the relative path from your current working directory
-**ext** is the file extension for the select file
+**ext** is the file extension for the file
 
 #### Example
 
 ```javascript
-inquirer.registerPrompt('directory', require('inquirer-directory'));
+inquirer.registerPrompt('file', require('inquirer-file'));
 inquirer.prompt([{
-  type: 'directory',
+  type: 'file',
   name: 'from',
   message: 'Where you like to put this component?',
   basePath: './src',

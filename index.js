@@ -1,5 +1,5 @@
 /**
- * `directory` type prompt
+ * `file` type prompt
  */
 var rx = require('rx-lite');
 var _ = require("lodash");
